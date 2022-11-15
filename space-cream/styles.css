@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --ff-heading: font-family: 'Staatliches', cursive;
+  --ff-texting: font-family: 'Palanquin', sans-serif;
+
+  font-size: 62.5%;
+  --fs-body: 2rem;
+  --fs-heading: 4rem;
+
+  --fc-heading: #FFFFFF;
+  --fc-body: #4A4E69;
+  --bg-primary:#8E9AAF;
+  --bg-secondary-header:#CBC0D3;
+  --bg-secondary:#FEEAFA;
+}
+
+
+.container{
+  max-width:24rem;
+}
+
+
+header {
+  position: relative;
+  /* width: 24rem; */
+  height: 17.4rem;
+  left: 0px;
+  top: 0px;
+  background:var(--bg-primary);
+  
+}
+
+header h1{
+  text-transform: uppercase;
+  font-weight:400;
+  font-size: var(--fs-heading);
+  letter-spacing: 0.05em;
+  line-height:3.4rem;
+  color: var(--fc-heading);
+  margin-top: 4rem;
+
+  position:absolute;
+  top: 12.56rem;
+  left: 0px;
+  /* width: 24rem; */
+  height: 3rem;
+  background: #CBC0D3;
+}
+
+.card img{
+  width: 100%;
+  height: auto;
+}
+
+.card h2{
+  background-color:var(--bg-secondary-text)
+}
+
